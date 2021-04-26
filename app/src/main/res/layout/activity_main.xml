@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imgBluetooth"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/bluetooth_grayicon"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <Switch
+                android:id="@+id/swState1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:layout_marginBottom="30dp"
+                android:text="안방 전등 상태"/>
+
+            <Switch
+                android:id="@+id/swState2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:layout_marginBottom="30dp"
+                android:text="작은방 전등 상태"/>
+
+            <Switch
+                android:id="@+id/swState3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:layout_marginBottom="30dp"
+                android:text="거실 전등 상태"/>
+
+
+
+        </LinearLayout>
+
+</LinearLayout>
